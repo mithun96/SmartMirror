@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+}
+p {
+	color: white;
+}
+h1, h3, h6{
+	color: white;
+}
+
+#right {
+	text-align: right;
+}
+
+#placeTime{
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+@font-face {
+font-family: AvenirBook;
+font-weight: bold;
+src: url("Avenir/AvenirLTStd-Book.otf") format("opentype");
+}
+@font-face {
+font-family: AvenirLight;
+font-weight: bold;
+src: url("Avenir/AvenirLTStd-Light.otf") format("opentype");
+}
+@font-face {
+font-family: AvenirRoman;
+font-weight: bold;
+src: url("Avenir/AvenirLTStd-Roman.otf") format("opentype");
+}
+
+
+h1, h3, p, h6{
+	font-family: AvenirBook;
+}

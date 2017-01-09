@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Smart Mirror</title>
+	 
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="mirror.css">
+
+
+</head>
+<body>
+
+
+
+<div class = "container-fluid"> 
+
+	<div class= "row">
+		<div class = "col-sm-3">
+			<h1>Headlines</h1>
+			<img src="news.SVG" style="width:30px;height:30px;">	
+
+			<h3 id = "placeNewsTitle1"> </h3>
+			<p id="placeNewsDetail1"> </p>
+
+			<h3 id = "placeNewsTitle2"> </h3>
+			<p id="placeNewsDetail2"> </p>
+
+			<h3 id = "placeNewsTitle3"> </h3>
+			<p id="placeNewsDetail3"> </p>
+
+			<h3 id = "placeNewsTitle4"> </h3>
+			<p id="placeNewsDetail4"> </p>			
+		</div>
+		<div class = "col-sm-6"> </div>
+		<div class = "col-sm-3" id = "right"> 	
+			<div>
+			<img src="clock.SVG" style="width:30px;height:30px; align:left;">	
+			<h1 id = "placeTime"> </h1>
+			</div>
+			<img src="cal.SVG" style="width:30px;height:30px;">	
+			<h1 id = "placeDay"> </h1>
+			<h1 id="placeDate"> </h1>
+
+			<h3 id = "placeWeatherSummary"> </h3>
+			<img src="weather.SVG" style="width:30px;height:30px;">	
+			<h1 id="placeWeatherCurTemp"> </h1>
+			<h3 id="placeWeatherHighTemp"> </h3>
+			<h3 id="placeWeatherLowTemp"> </h3>	
+
+			<h3 style= "text-align: left;">Today's Focus: </h1>
+
+		</div>
+
+	</div>
+
+	
+
+
+</div>
+
+<script src="date.js" type="text/javascript"></script>
+<script src="news.js" type="text/javascript"></script>
+<script src="weather.js" type="text/javascript"></script>
+
+
+
+</body>
+</html> 
