@@ -4,18 +4,28 @@ body {
 p {
 	color: white;
 }
-h1, h3, h6{
+h1, h3, h6, ul{
 	color: white;
+}
+ul{
+
+	text-decoration: underline;
 }
 
 #right {
 	text-align: right;
 }
 
-#placeTime{
+#placeTime, #placeDay, #placeWeatherCurTemp, #placeFocus{
 	display: inline-block;
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 30px;
+}
+
+#headlines{
+	display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
 }
 
 
@@ -36,6 +46,6 @@ src: url("Avenir/AvenirLTStd-Roman.otf") format("opentype");
 }
 
 
-h1, h3, p, h6{
+h1, h3, p, h6, ul{
 	font-family: AvenirBook;
 }
